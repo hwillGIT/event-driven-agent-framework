@@ -11,3 +11,9 @@
 
 ## Midjourney Tokens
 `classical marble sculpture`, `dramatic chiaroscuro lighting`, `cinematic composition`, `ancient greek aesthetic`, `monumental scale`, `hyperrealistic texture`, `--stylize 250`
+
+## Negative Constraints (Avoid)
+*   No cartoons or vector art.
+*   No flat lighting.
+*   No modern clothing or technology.
+*   No bright, cheerful primary colors.

@@ -11,3 +11,9 @@
 
 ## Midjourney Tokens
 `technical blueprint style`, `white lines on blue background`, `isometric schematic`, `diagrammatic illustration`, `vector lines`, `precise geometry`, `--no texture`
+
+## Negative Constraints (Avoid)
+*   No photorealism or shading.
+*   No organic shapes or messy lines.
+*   No paper texture (unless grid paper).
+*   No perspective distortion (keep it isometric/orthographic).

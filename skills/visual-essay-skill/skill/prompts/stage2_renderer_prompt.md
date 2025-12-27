@@ -10,8 +10,7 @@
 2.  **Generate Image Prompts**: Create a Midjourney `/imagine` prompt for each slide.
     *   Include the specific visual anchor from the blueprint.
     *   Append the Motif's style tokens (e.g., "engraving style", "isometric", "marble texture").
-    *   Ensure aspect ratio is `--ar 4:5` (portrait) or `--ar 3:2` (landscape) as requested (default 4:5).
-3.  **Extract Text**: Copy the `HEADING (LOCKED)` and `BODY TEXT (LOCKED)` *exactly* as they appear in the blueprint. Do not fix typos. Do not change punctuation.
+    *   Ensure aspect ratio is `--ar 16:9` (landscape) for course content/monitors.
 
 ## Output Format
 
@@ -20,7 +19,7 @@ For each slide in the blueprint:
 ### Slide [N]
 
 **Image Prompt**:
-`/imagine prompt: [Subject Description] :: [Motif Style Tokens] :: [Lighting/Atmosphere] --v 6.0 --ar 4:5 --style raw`
+`/imagine prompt: [Subject Description] :: [Motif Style Tokens] :: [Lighting/Atmosphere] --v 6.0 --ar 16:9 --style raw`
 
 **Overlay Text**:
 *   **Header**: [Content from HEADING (LOCKED)]

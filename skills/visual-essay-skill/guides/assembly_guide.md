@@ -10,6 +10,7 @@ This guide details how to turn VEG Blueprints into final assets using **Nano Ban
 1.  **Input Source**:
     *   Get your generated Image Prompts from Gemini (Stage 2 output).
     *   Get your **LOCKED** text blocks from the Blueprint (Stage 1 output).
+    *   *Note*: Ensure your output format in Nano Banana is set to **Landscape (16:9)** to match the prompt generator.
 
 2.  **Nano Banana Execution**:
     *   Copy the prompt for **Slide 1** into Nano Banana.

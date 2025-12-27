@@ -11,3 +11,9 @@
 
 ## Midjourney Tokens
 `pencil and ink sketch`, `rough graphite drawing`, `on notebook paper`, `architectural sketch style`, `loose lines`, `watercolor wash`, `--stylize 50`
+
+## Negative Constraints (Avoid)
+*   No polished digital art or 3D renders.
+*   No solid black backgrounds.
+*   No perfect straight lines.
+*   No photographic elements.

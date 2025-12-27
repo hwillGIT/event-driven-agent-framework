@@ -11,3 +11,9 @@
 
 ## Midjourney Tokens
 `vintage textbook illustration`, `1970s graphic design`, `flat vector art`, `educational diagram`, `muted primary colors`, `clean minimalism`, `--no 3d`
+
+## Negative Constraints (Avoid)
+*   No photorealistic shading or textures.
+*   No complex gradients.
+*   No chaotic compositions.
+*   No "AI glossy" look.

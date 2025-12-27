@@ -55,6 +55,7 @@ The core of this skill is the "Operator Mode" prompt. It turns Gemini into the V
 
 2.  **Get Image Prompts**:
     *   Gemini will output the **Image Prompts** and **Overlay Text**.
+    *   *Note*: The system now defaults to **Landscape (16:9)** aspect ratio for course content and monitors.
 
 ---
 

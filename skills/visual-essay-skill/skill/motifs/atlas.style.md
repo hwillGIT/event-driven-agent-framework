@@ -11,3 +11,9 @@
 
 ## Midjourney Tokens
 `vintage map style`, `cartographic illustration`, `aged paper texture`, `copperplate engraving`, `detailed geography`, `sepia and teal`, `--no photorealistic`
+
+## Negative Constraints (Avoid)
+*   No modern fonts or digital overlays.
+*   No bright neon colors.
+*   No photorealistic 3D rendering.
+*   No clean white backgrounds (must have texture).
