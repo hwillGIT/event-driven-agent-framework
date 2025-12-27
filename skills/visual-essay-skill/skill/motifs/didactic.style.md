@@ -9,5 +9,17 @@
 3.  **Lighting**: Flat, even, no shadows.
 4.  **Composition**: 2D, cross-sections, labeled parts (implied).
 
+## Design Principles (Art Direction)
+*   **Typography**: Sans-Serif (Helvetica, Univers).
+*   **Layout**: Swiss Style, asymmetrical, clean.
+*   **Color Theory**: Split-Complementary Muted.
+
+
 ## Midjourney Tokens
 `vintage textbook illustration`, `1970s graphic design`, `flat vector art`, `educational diagram`, `muted primary colors`, `clean minimalism`, `--no 3d`
+
+## Negative Constraints (Avoid)
+*   No photorealistic shading or textures.
+*   No complex gradients.
+*   No chaotic compositions.
+*   No "AI glossy" look.

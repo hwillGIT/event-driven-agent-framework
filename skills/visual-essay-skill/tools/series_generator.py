@@ -1,15 +1,21 @@
-import yaml
+import json
 import sys
 import os
 import shutil
 
-def generate_series(yaml_path):
-    with open(yaml_path, 'r') as f:
-        spec = yaml.safe_load(f)
+def generate_series(json_path):
+    print(f"Reading spec from: {json_path}")
+    with open(json_path, 'r') as f:
+        spec = json.load(f)
 
     series_title = spec.get('series_title', 'Untitled_Series').replace(' ', '_')
     motif = spec.get('motif', 'Atlas')
-    output_dir = os.path.join('out', series_title)
+    
+    # Create specific output directory as requested
+    output_dir = os.path.join('skills/visual-essay-skill/out', series_title)
+    
+    # Ensure parent dir exists
+    os.makedirs(os.path.dirname(output_dir), exist_ok=True)
     
     if os.path.exists(output_dir):
         shutil.rmtree(output_dir)
@@ -17,16 +23,12 @@ def generate_series(yaml_path):
 
     print(f"Generating series: {series_title} ({len(spec['essays'])} essays) in {output_dir}")
 
-    # Read base prompt template (Stage 1)
-    # In a real scenario, this would read the .md file. Here we construct the prompt instructions.
-    base_instruction = "You are generating a Visual Essay Blueprint."
-
     for i, essay in enumerate(spec['essays']):
         title = essay['title']
         concept = essay['concept']
-        safe_title = title.replace(' ', '_').replace('/', '-')
+        safe_title = title.replace(' ', '_').replace('/', '-').replace(':', '')
         
-        filename = f"{i+1:02d}_{safe_title}_operator_prompt.md"
+        filename = f"{i+1:02d}_{safe_title}.prompt.md"
         filepath = os.path.join(output_dir, filename)
 
         content = f"""# Operator Prompt for Essay {i+1}: {title}
@@ -51,7 +53,7 @@ def generate_series(yaml_path):
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("Usage: python series_generator.py <path_to_yaml_spec>")
+        print("Usage: python series_generator.py <path_to_json_spec>")
         sys.exit(1)
     
     generate_series(sys.argv[1])

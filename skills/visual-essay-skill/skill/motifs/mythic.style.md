@@ -9,5 +9,17 @@
 3.  **Lighting**: Dramatic side lighting, rim lighting, god rays, high contrast.
 4.  **Composition**: Low angles (looking up), centered subjects, symmetry.
 
+## Design Principles (Art Direction)
+*   **Typography**: Classical Serif (Trajan, Cinzel).
+*   **Layout**: Centralized, symmetrical, heavy negative space.
+*   **Color Theory**: Achromatic (Black/White) with Gold Accents.
+
+
 ## Midjourney Tokens
 `classical marble sculpture`, `dramatic chiaroscuro lighting`, `cinematic composition`, `ancient greek aesthetic`, `monumental scale`, `hyperrealistic texture`, `--stylize 250`
+
+## Negative Constraints (Avoid)
+*   No cartoons or vector art.
+*   No flat lighting.
+*   No modern clothing or technology.
+*   No bright, cheerful primary colors.
