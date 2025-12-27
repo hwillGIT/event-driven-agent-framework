@@ -55,7 +55,7 @@ def main():
             topic = st.text_input("Enter Topic/Concept:", placeholder="e.g. The Philosophy of Water")
         with col2:
             motif = st.selectbox("Select Visual Style (Motif):", ["Atlas", "Mythic", "Systems", "Sketchbook", "Didactic"])
-            metaphor = st.selectbox("Select Conceptual Metaphor:", ["None (Auto)", "Nature", "Architecture", "Machine", "Alchemy"])
+            metaphor = st.selectbox("Select Conceptual Metaphor:", ["None (Auto)", "Nature", "Architecture", "Machine", "Alchemy", "Business"])
         
         if st.button("Generate Operator Prompt", type="primary"):
             if not topic:
