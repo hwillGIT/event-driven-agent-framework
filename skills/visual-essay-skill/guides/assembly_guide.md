@@ -9,6 +9,7 @@ This guide details how to turn VEG Blueprints into final assets using **Nano Ban
 
 1.  **Input Source**:
     *   Get your generated Image Prompts from Gemini (Stage 2 output).
+    *   *Note*: Clean up specific Midjourney parameters (like `--v 6.0` or `--style raw`) if Nano Banana does not recognize them. Keep the descriptive text and aspect ratio (`--ar 16:9`).
     *   Get your **LOCKED** text blocks from the Blueprint (Stage 1 output).
     *   *Note*: Ensure your output format in Nano Banana is set to **Landscape (16:9)** to match the prompt generator.
 
