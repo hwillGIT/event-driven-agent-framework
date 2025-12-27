@@ -9,18 +9,30 @@ The VEG workflow consists of two main stages, guided by specific prompts and tem
 1.  **Stage 1: Blueprint Generation**: Converts raw ideas, notes, or a topic into a structured "Blueprint". This blueprint defines the core thesis, narrative arc, and exactly what text and visuals go where.
 2.  **Stage 2: Rendering**: Takes the Blueprint and a specific "Motif" (visual style) to generate the final output (e.g., Midjourney prompts + final copy).
 
-## ⚡ One-Stop Shop (Interactive CLI)
+## 🖥️ One-Stop Shop (Web Interface)
 
-The easiest way to use VEG is via the interactive terminal app. It handles prompt generation, series processing, and PDF ingestion workflows for you.
+The best way to use VEG is via the **Streamlit Web App**. It provides a visual interface for all workflows without needing to memorize commands.
+
+1.  Run the app:
+    ```bash
+    streamlit run skills/visual-essay-skill/app/streamlit_app.py
+    ```
+2.  Open your browser to the local URL (usually `http://localhost:8501`).
+3.  Choose your mode:
+    *   **New Essay**: Generate copy-paste prompts for Gemini.
+    *   **Series Generator**: Process batch specs visually.
+    *   **PDF Extraction**: Get the specialized prompts for NotebookLM.
+    *   **Linter**: Paste your blueprint to validate it instantly.
+
+---
+
+## ⚡ CLI Tool (Alternative)
+
+If you prefer the terminal:
 
 ```bash
 python3 skills/visual-essay-skill/app/veg.py
 ```
-
-This launches a menu where you can:
-1.  **Create a New Essay**: Generates the exact Operator prompt for your topic + style.
-2.  **Generate a Series**: Automatically reads your JSON/YAML specs and builds the prompt pack.
-3.  **Process PDFs**: Creates the specific "Extraction Prompt" for NotebookLM.
 
 ---
 
