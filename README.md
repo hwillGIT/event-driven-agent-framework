@@ -1,13 +1,6 @@
-# Event Driven Agent Framework
+# Visual Essay Generator (VEG v2.0)
 
-A modular framework for building, managing, and deploying specialized AI agent skills. This repository serves as a collection of production-ready "Skills" that can be run interactively or integrated into larger agentic workflows.
-
-## 📚 Available Skills
-
-### 1. [Visual Essay Generator (VEG v2.0)](skills/visual-essay-skill/README.md)
-**Location**: `skills/visual-essay-skill/`
-
-A complete pipeline for transforming abstract concepts, raw notes, or PDFs into high-fidelity visual narratives (slide decks, social carousels, or course materials).
+A production-ready pipeline for transforming abstract concepts, raw notes, or PDFs into high-fidelity visual narratives (slide decks, social carousels, or course materials).
 
 *   **Workflow**: Topic -> Blueprint (Architecture) -> Render (Visuals) -> Assembly.
 *   **Key Features**:
@@ -16,41 +9,65 @@ A complete pipeline for transforming abstract concepts, raw notes, or PDFs into 
     *   **Business Engine**: Translate formal diagrams (Swimlanes, Org Charts) into professional visual metaphors.
     *   **Text Integrity**: "LOCKED" block system ensures byte-perfect text retention in final images.
 
-## 🚀 Getting Started
+## 🌍 Web Interface (Replit / Flask)
 
-To use the tools in this repository, clone the repo and install the shared dependencies (or skill-specific dependencies).
+If you are running on **Replit** (or prefer a standard Web Server), use the Flask app:
+
+1.  **Run Command**:
+    ```bash
+    python3 app/replit_app.py
+    ```
+2.  **Access**: Open the Webview/Preview pane.
+3.  **Features**:
+    *   **New Essay**: Generate prompts instantly.
+    *   **PDF Extraction**: Get the NotebookLM instruction.
+    *   **Linter**: Paste your Markdown to validate blocks.
+
+*(Note: The `replit.nix` file is included for instant configuration on Replit.)*
+
+---
+
+## 🖥️ Streamlit Interface (Local)
+
+The best way to use VEG locally is via the **Streamlit Web App**. It provides a visual interface for all workflows without needing to memorize commands.
+
+1.  Run the app:
+    ```bash
+    streamlit run app/streamlit_app.py
+    ```
+2.  Open your browser to the local URL (usually `http://localhost:8501`).
+3.  Choose your mode:
+    *   **New Essay**: Generate copy-paste prompts for Gemini.
+    *   **Series Generator**: Process batch specs visually.
+    *   **PDF Extraction**: Get the specialized prompts for NotebookLM.
+    *   **Linter**: Paste your blueprint to validate it instantly.
+
+---
+
+## ⚡ CLI Tool (Alternative)
+
+If you prefer the terminal:
 
 ```bash
-git clone https://github.com/hwillGIT/event-driven-agent-framework.git
-cd event-driven-agent-framework
+python3 app/veg.py
 ```
 
-### Running the Visual Essay Generator
-You can run the VEG Web Interface immediately:
-
-```bash
-# Install dependencies
-pip install -r skills/visual-essay-skill/requirements.txt
-
-# Run the Streamlit App
-streamlit run skills/visual-essay-skill/app/streamlit_app.py
-```
+This launches a menu where you can:
+1.  **Create a New Essay**: Generates the exact Operator prompt for your topic + style.
+2.  **Generate a Series**: Automatically reads your JSON/YAML specs and builds the prompt pack.
+3.  **Process PDFs**: Creates the specific "Extraction Prompt" for NotebookLM.
 
 ## 📂 Repository Structure
 
 ```text
 .
-├── skills/
-│   └── visual-essay-skill/   # VEG v2.0 Module
-│       ├── app/              # Web UIs (Streamlit/Flask)
-│       ├── skill/            # Prompts, Motifs, Metaphors
-│       ├── tools/            # Python Automation Scripts
-│       └── examples/         # Sample Blueprints & Specs
+├── app/              # Web UIs (Streamlit/Flask)
+├── skill/            # Prompts, Motifs, Metaphors
+├── tools/            # Python Automation Scripts
+├── examples/         # Sample Blueprints & Specs
 └── README.md
 ```
 
 ## 🤝 Contribution
 
-1.  Pick a Skill module to improve.
-2.  Follow the pattern: `skill/` (prompts), `tools/` (code), `app/` (UI).
-3.  Ensure all generated content is "LOCKED" or validated by linters.
+1.  Ensure all generated content is "LOCKED" or validated by linters.

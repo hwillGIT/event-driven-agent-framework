@@ -90,7 +90,7 @@ def flow_series():
     print("Checking for spec files in examples/series/...")
     
     # List files
-    series_dir = "skills/visual-essay-skill/examples/series"
+    series_dir = "examples/series"
     if not os.path.exists(series_dir):
         print(f"Error: Directory {series_dir} not found.")
         input("Press Enter...")
@@ -114,7 +114,7 @@ def flow_series():
 
     print(f"\nProcessing {target_file}...")
     # Call the existing tool logic (using os.system for simplicity in this proto)
-    cmd = f"python skills/visual-essay-skill/tools/series_generator.py {target_file}"
+    cmd = f"python tools/series_generator.py {target_file}"
     os.system(cmd)
     
     print("\n[Success] Series prompts generated.")
