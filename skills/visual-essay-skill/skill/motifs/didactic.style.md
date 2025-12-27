@@ -1,0 +1,13 @@
+# MOTIF: DIDACTIC (LOCKED)
+
+**Style Description**: Educational material, clarity, retro textbook.
+**Keywords**: `1970s textbook`, `instructional diagram`, `Helvetica`, `flat colors`, `vector illustration`, `educational`, `clear`, `simple`.
+
+## Visual Rules
+1.  **Texture**: Matte paper, slight grain (offset printing).
+2.  **Color Palette**: Muted primaries (mustard yellow, faded blue, brick red), off-white background.
+3.  **Lighting**: Flat, even, no shadows.
+4.  **Composition**: 2D, cross-sections, labeled parts (implied).
+
+## Midjourney Tokens
+`vintage textbook illustration`, `1970s graphic design`, `flat vector art`, `educational diagram`, `muted primary colors`, `clean minimalism`, `--no 3d`
