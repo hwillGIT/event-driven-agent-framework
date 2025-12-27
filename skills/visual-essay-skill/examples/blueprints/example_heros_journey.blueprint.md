@@ -1,62 +1,83 @@
 ### 1. Meta-Data
-*   **Title**: The Hero's Journey Reimagined
-*   **Core Thesis**: The Hero's Journey is not a circle; it is a spiral.
-*   **Conceptual Tension**: Circle vs. Spiral.
-*   **Narrative Spine**: Departure -> Initiation -> Return (Changed).
+*   **Title**: The Hero's Journey: A Cycle
+*   **Core Thesis**: The monomyth is a universal pattern of transformation.
+*   **Conceptual Tension**: Home (Stasis) vs. Adventure (Change).
+*   **Narrative Spine**: Departure -> Initiation -> Return.
+*   **Sections**:
+    1.  **S1: The Call**: Awakening.
+    2.  **S2: The Threshold**: Crossing over.
+    3.  **S3: The Ordeal**: Death and rebirth.
+    4.  **S4: The Return**: Mastery.
+*   **Visual Anchors**: Doors, circles, swords, elixirs.
+*   **Bottom Synthesis**: We are all heroes in our own stories, constantly cycling through these stages.
+*   **Text Density Guidance**: MINIMAL
 
 ### 2. Slides
 
 ---
 #### Slide 1
-**Visual Anchor**: A perfect geometric circle drawn in the sand.
-**Visual Subject**: Circle.
-**Background/Atmosphere**: Desert, simple.
+**Visual Anchor**: A simple wooden door standing alone in a field, slightly ajar with light spilling out.
+**Visual Subject**: Door/Threshold.
+**Background/Atmosphere**: Mundane vs. Magical.
 
 SECTION ID: S1
 HEADING (LOCKED):
-THE OLD MYTH
+THE CALL TO ADVENTURE
 
 BODY TEXT (LOCKED):
-Campbell taught us the circle. You leave, you fight, you return. But you are not the same [S1].
+The familiar world fades. A signal comes. You can refuse, but the door remains open [S1].
 
 KEYWORDS (LOCKED):
-circle, campbell, sand, repetition
+door, call, beginning, choice
 ---
 
 ---
 #### Slide 2
-**Visual Anchor**: A DNA double helix spiraling upwards.
-**Visual Subject**: Spiral.
-**Background/Atmosphere**: Scientific, abstract.
+**Visual Anchor**: A figure diving into deep, dark water.
+**Visual Subject**: Descent/Dive.
+**Background/Atmosphere**: Underwater, abyss.
 
 SECTION ID: S2
 HEADING (LOCKED):
-THE SPIRAL
+THE BELLY OF THE WHALE
 
 BODY TEXT (LOCKED):
-You come back to the start, but you are higher. Or deeper. It is iteration, not repetition.
+You must leave the known. There is no transformation without the descent into the dark.
 
 KEYWORDS (LOCKED):
-dna, spiral, evolution, growth
+water, descent, abyss, unknown
 ---
 
 ---
 #### Slide 3
-**Visual Anchor**: A staircase that looks like a circle from above but a spiral from the side.
-**Visual Subject**: Perspective shift.
-**Background/Atmosphere**: Architectural, escher-like.
+**Visual Anchor**: A sword glowing with internal heat, forged on an anvil.
+**Visual Subject**: Sword/Fire.
+**Background/Atmosphere**: Fire, intensity.
 
 SECTION ID: S3
 HEADING (LOCKED):
-SHIFT YOUR VIEW
+THE ORDEAL
 
 BODY TEXT (LOCKED):
-Stop walking in circles. Start climbing the stair.
+The old self must die. In the fire of the challenge, the new self is forged.
 
 KEYWORDS (LOCKED):
-stairs, perspective, climb, end
+fire, forge, death, rebirth
 ---
 
-### 3. Bottom Synthesis
-*   **Summary for Caption**: Revisiting Joseph Campbell. The Hero's Journey is a spiral of evolution, not a closed loop of fate.
-*   **Hashtags**: #herosjourney #mythology #storytelling #structure
+---
+#### Slide 4
+**Visual Anchor**: The hero returning to the village, holding a lantern that lights up the houses.
+**Visual Subject**: Return/Light.
+**Background/Atmosphere**: Twilight, comforting.
+
+SECTION ID: S4
+HEADING (LOCKED):
+THE MASTER OF TWO WORLDS
+
+BODY TEXT (LOCKED):
+You return to where you started, but you are not the same. You bring the boon back home [S2].
+
+KEYWORDS (LOCKED):
+return, home, gift, circle
+---
