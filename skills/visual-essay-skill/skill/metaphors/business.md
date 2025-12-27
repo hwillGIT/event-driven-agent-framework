@@ -45,8 +45,37 @@
 *   **Visuals**: `Window pane`, `Crosshairs`, `Compass rose`, `Four seasons garden`.
 *   **Use for**: SWOT analysis, Eisenhower matrix, Competitive landscape.
 
+## Formal Business Analysis Models (Visual Translations)
+
+When the user asks for formal BA diagrams (e.g., "Activity Diagram" or "Entity Relationship Diagram"), translate them into these high-fidelity metaphors:
+
+### A. Process & Activity Flow
+*   **BA Model**: Activity Diagram, Swimlane Diagram, Business Process Model.
+*   **Visual Metaphor**: `Factory assembly line`, `Rube Goldberg machine`, `Air traffic control map`, `River system branching`.
+*   **Key Element**: Distinct stages connected by "flow" (conveyor belts, pipes, streams).
+
+### B. State & Lifecycle
+*   **BA Model**: State Machine Diagram, User Lifecycle.
+*   **Visual Metaphor**: `Butterfly metamorphosis (Caterpillar -> Chrysalis -> Butterfly)`, `Phases of the moon`, `Seasons changing`.
+*   **Key Element**: Transformation of a single subject.
+
+### C. Data & Relationships
+*   **BA Model**: Entity Relationship Diagram (ERD), Data Dictionary.
+*   **Visual Metaphor**: `Library card catalog`, `Constellation star map`, `Family tree`, `Periodic table`.
+*   **Key Element**: Nodes connected by rigid lines or threads.
+
+### D. Organization & Roles
+*   **BA Model**: Org Chart, Stakeholder Map.
+*   **Visual Metaphor**: `Beehive`, `Orchestra layout`, `Solar system`, `Medieval court`.
+*   **Key Element**: Hierarchy and clusters of influence.
+
+### E. Scope & Context
+*   **BA Model**: Context Diagram, Scope Model.
+*   **Visual Metaphor**: `Walled garden`, `Island map`, `Target circles (bullseye)`, `Castle walls`.
+*   **Key Element**: Clear boundaries (In vs Out).
+
 ## Visual Vocabulary (General)
-`shipping containers`, `cranes`, `lighthouses`, `relay batons`, `compasses`, `blueprints`, `puzzle pieces`, `keys`, `doors`.
+`shipping containers`, `cranes`, `lighthouses`, `relay batons`, `compasses`, `blueprints`, `puzzle pieces`, `keys`, `doors`, `clipboards`, `whiteboards`.
 
 ## Special Logic: TEXT & LABELS
 1.  **Do NOT** try to render text lists (e.g., "Q1, Q2, Q3") inside the image pixels.
